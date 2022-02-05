@@ -1,2 +1,2 @@
-# SpecPhone
-Projekat za predmet Programiranje mobilnih aplikacija
+# phone-specification-app
+University project in Kotlin
