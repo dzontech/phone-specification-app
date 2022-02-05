@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpecPhone</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="aboutus2">Here you will find a catalog of all smartphones with detailed technical characteristics and specifications. This app is created with a single purpose - to help you in choosing a new smartphone. Meet your desired phone details - screen, camera, battery size, processor, memory, etc. Enjoy!</string>
+</resources>
