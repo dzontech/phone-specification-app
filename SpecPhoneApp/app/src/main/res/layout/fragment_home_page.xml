@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone_10"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".phonelist.HomePageFragment">
+
+    <TextView
+        android:id="@+id/home_page_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:text="SpecPhone"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="italic">
+    </TextView>
+
+    <Button
+
+        android:id="@+id/home_page_btn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="200dp"
+
+        android:background="@drawable/round_style"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon= "@drawable/ic_baseline_phone_android_24"
+        android:text="Phone list"
+        android:textColor="@color/white">
+
+    </Button>
+    <Button
+
+        android:id="@+id/home_page_btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round_style"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon= "@drawable/ic_baseline_info_24"
+        android:text="About us"
+        android:textColor="@color/white"
+        >
+
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/home_page_btn_contact"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/round_style"
+        android:text="Contact"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_baseline_contact_mail_24">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/home_page_btn_old"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/round_style"
+        android:text="Old Phones"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_baseline_phone_iphone_24">
+
+    </Button>
+
+</FrameLayout>
